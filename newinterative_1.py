@@ -17,7 +17,7 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.naive_bayes import GaussianNB
 from sklearn.svm import SVC
-from scikit-learn.metrics import accuracy_score, confusion_matrix, precision_score, recall_score, f1_score, matthews_corrcoef, roc_curve, roc_auc_score
+from sklearnmetrics import accuracy_score, confusion_matrix, precision_score, recall_score, f1_score, matthews_corrcoef, roc_curve, roc_auc_score
 
 # Dropdown menu to choose the model
 model_dropdown = widgets.Dropdown(
