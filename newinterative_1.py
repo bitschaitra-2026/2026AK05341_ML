@@ -1,5 +1,5 @@
 #import ipywidgets as widgets
-from IPython.display import display, clear_output
+#from IPython.display import display, clear_output
 import matplotlib.pyplot as plt
 import numpy as np
 from sklearn.linear_model import LogisticRegression
