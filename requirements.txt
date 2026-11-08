@@ -3,4 +3,5 @@
 3.importlib
 4.matplotlib.pyplot
 5.ipywidgets
+6.streamlit
 
