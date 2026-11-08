@@ -1,7 +1,7 @@
-#import ipywidgets as widgets
-#from IPython.display import display, clear_output
-#import matplotlib.pyplot as plt
-#import numpy as np
+import ipywidgets as widgets
+from IPython.display import display, clear_output
+import matplotlib.pyplot as plt
+import numpy as np
 from sklearn.linear_model import LogisticRegression
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.neighbors import KNeighborsClassifier
