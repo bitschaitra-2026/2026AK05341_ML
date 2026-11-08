@@ -4,4 +4,4 @@ importlib
 matplotlib.pyplot
 ipywidgets
 streamlit
-
+sklearn
