@@ -1,6 +1,0 @@
-numpy
-pandas
-importlib
-matplotlib.pyplot
-matplotlib
-ipywidgets
