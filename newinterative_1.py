@@ -4,7 +4,7 @@ import streamlit as st
 model_choice=st.selectbox(
     label="Choose the model:",
     options=[
-        ('Logistic regression','lr)
+        ('Logistic regression','lr')
          ],
          format_func=lambda x:x[0]
 )
