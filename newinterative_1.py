@@ -1,9 +1,15 @@
-import json
-import os
 
 import streamlit as st
-import ipywidgets as widgets
-from IPython.display import display, clear_output
+
+model_choice=st.selectbox(
+    label="Choose the model:",
+    options=[
+        ('Logistic regression','lr)
+         ],
+         format_func=lambda x:x[0]
+)
+selected_model_key= model_choice[1]
+
 import matplotlib.pyplot as plt
 import numpy as np
 from sklearn.linear_model import LogisticRegression
