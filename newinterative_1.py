@@ -13,10 +13,10 @@ selected_model_key= model_choice[1]
 #import matplotlib.pyplot as plt
 import numpy as np
 from sklearn.linear_model import LogisticRegression
-from scikit-learn import DecisionTreeClassifier
-from scikit-learn import KNeighborsClassifier
-from scikit-learn import GaussianNB
-from scikit-learn.svm import SVC
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.naive_bayes import GaussianNB
+from sklearn.svm import SVC
 from scikit-learn.metrics import accuracy_score, confusion_matrix, precision_score, recall_score, f1_score, matthews_corrcoef, roc_curve, roc_auc_score
 
 # Dropdown menu to choose the model
