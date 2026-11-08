@@ -10,7 +10,7 @@ model_choice=st.selectbox(
 )
 selected_model_key= model_choice[1]
 
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 import numpy as np
 from sklearn.linear_model import LogisticRegression
 from sklearn.tree import DecisionTreeClassifier
