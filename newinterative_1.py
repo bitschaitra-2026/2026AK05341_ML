@@ -12,7 +12,7 @@ selected_model_key= model_choice[1]
 
 #import matplotlib.pyplot as plt
 import numpy as np
-from scikit-learn.linear_model import LogisticRegression
+from sklearn.linear_model import LogisticRegression
 from scikit-learn import DecisionTreeClassifier
 from scikit-learn import KNeighborsClassifier
 from scikit-learn import GaussianNB
