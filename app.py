@@ -31,11 +31,11 @@ if uploaded_file is not None:
     )
 
     model_files = {
-        "Logistic Regression": "model/logistic_regression.pkl",
-        "Decision Tree": "model/decision_tree.pkl",
-        "KNN": "model/knn.pkl",
-        "Naive Bayes": "model/naive_bayes.pkl",
-        "Support Vector Machine": "model/svm.pkl"
+        "Logistic Regression": "model/logistic_regression.joblib",
+        "Decision Tree": "model/decision_tree.joblib",
+        "KNN": "model/knn.joblib",
+        "Naive Bayes": "model/naive_bayes.joblib",
+        "Support Vector Machine": "model/svm.joblib"
     }
 
     if st.sidebar.button("Evaluate Model"):
