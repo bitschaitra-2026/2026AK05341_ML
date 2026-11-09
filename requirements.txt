@@ -6,4 +6,6 @@ ipywidgets
 streamlit
 scikit-learn
 matplotlib
+joblib
+seaborn
 
